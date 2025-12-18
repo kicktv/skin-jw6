@@ -1,1 +1,0 @@
-jwplayer.version="6.12.4956"

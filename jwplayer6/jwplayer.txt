@@ -1,0 +1,2 @@
+jwplayer.version="6.12.4956"
+jwplayer.key=82QmuaEb7MLTRUwFW2U3PX1KblrfzSGrJXgaOLuj20w=
