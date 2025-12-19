@@ -14,26 +14,26 @@ position: relative;
 overflow: hidden;
 width: 99%;
 max-width: 800px;
-height: 400px;
+height: 430px;
 }
 </style>
 </head>
 <body style="margin:0"><center><h1> change Skin for jwplayer6</h1>
 <select id="skin" onchange="changeSkin()">
-  <option value="">SelectSkin</option>
+  <option value="skins/vblue.xml">SelectSkin</option>
   <option value="skins/bekle.xml">bekle</option>
   <option value="skins/beelden.xml">beelden</option>
-  <option value="https://kicktv.github.io/skin-jwplayer6/skins/five.xml">five</option>
-  <option value="https://kicktv.github.io/skin-jwplayer6/skins/glow.xml">glow</option>
-  <option value="https://kicktv.github.io/skin-jwplayer6/skins/jw6.xml">jw6</option>
-  <option value="https://kicktv.github.io/skin-jwplayer6/skins/mockup.xml">mockup</option>
-  <option value="https://kicktv.github.io/skin-jwplayer6/skins/modieus.xml">modieus</option>
-  <option value="https://kicktv.github.io/skin-jwplayer6/skins/roundster.xml">roundster</option>
+  <option value="skins/five.xml">five</option>
+  <option value="skins/glow.xml">glow</option>
+  <option value="skins/jw6.xml">jw6</option>
+  <option value="skins/mockup.xml">mockup</option>
+  <option value="skins/modieus.xml">modieus</option>
+  <option value="skins/roundster.xml">roundster</option>
   <option value="skins/six.xml">six</option>
-  <option value="https://kicktv.github.io/skin-jwplayer6/skins/stormtrooper.xml">stormtrooper</option>
- <option value="https://kicktv.github.io/skin-jwplayer6/skins/vapor.xml">vapor</option>
- <option value="https://kicktv.github.io/skin-jwplayer6/skins/vblue.xml">vblue</option>
-</select>
+  <option value="skins/stormtrooper.xml">stormtrooper</option>
+ <option value="skins/vapor.xml">vapor</option>
+ <option value="skins/vblue.xml">vblue</option>
+</select><br/><br/>
 <div id='jwplayer'></div></center>
 <script>
 // start function changeSkin
@@ -50,8 +50,8 @@ else {var skin = 'skins/vblue.xml'; }
 
 // start code jwplayer
 jwplayer('jwplayer').setup({
-width: '700',
-//height: '400',
+width: '99%',
+height: '430',
 image: "bg.jpg",
 //file: "http://youtu.be/VSiSw6Jo2jQ",
 file: "https://wetv.gitlab.io/1.mp4",
